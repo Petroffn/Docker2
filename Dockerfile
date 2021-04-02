@@ -1,3 +1,4 @@
 FROM httpd:latest
-ADD index.html /usr/local/share/htdocs
+ADD index.html /home/nikolai/git/lesson2  
 CMD ["httpd-foreground"]
+
